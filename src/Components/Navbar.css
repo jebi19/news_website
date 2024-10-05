@@ -1,0 +1,42 @@
+
+.navbar {
+    background-color: #1d1a1a; 
+  }
+  
+  .navbar-brand,
+  .nav-link {
+    color: white;
+ }
+  .navbar-brand:hover,
+  .nav-link:hover {
+    color: #ccc ; 
+  }
+  .form-control {
+    background-color: #1d1a1a; 
+    color: white;
+    border: 1px solid white; 
+  }
+  .form-control::placeholder {
+    color: #aaa;
+  }
+  .form-control:focus{
+    outline: none;
+    border:1px solid white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.466);
+  }
+  .btn-outline-success {
+    border-color: white; 
+    color: white; 
+    background-color: transparent; 
+}
+
+.btn-outline-success:focus {
+    background-color: #1d1a1a;
+    color: white;
+    box-shadow: none; 
+}
+
+.btn-outline-success:hover {
+    background-color: white; 
+    color: #1d1a1a; 
+}
